@@ -57,7 +57,7 @@ public class ReadingTest {
         Reading re1 = new Reading(fileShort);
         re1.buildDictionary();
         re1.getDict().printList();
-        Assert.assertEquals(7774, re1 .getDict().getList().length);
+        Assert.assertEquals(7773, re1 .getDict().getList().length);
         String csv =re1.readLine(line2);
     }
 
@@ -108,5 +108,7 @@ public class ReadingTest {
         re.buildDictionary();
         re.writeLines(out);
     }
-
+    @Test
+    public void stahhp() throws Exception {
+    }
 }

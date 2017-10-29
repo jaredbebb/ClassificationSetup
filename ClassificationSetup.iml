@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java External Libs/hamcrest-core-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Java External Libs/javax/javax.json-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -19,7 +19,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java External Libs/junit-4.12.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Java External Libs/junit_ham/hamcrest-core-1.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java External Libs/javax.json-1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Java External Libs/junit_ham/junit-4.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

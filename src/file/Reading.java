@@ -1,10 +1,9 @@
 package file;
 
-import org.omg.CORBA.Object;
+import lin.StringFormat;
 
 import java.io.*;
 import java.util.HashSet;
-import java.util.Optional;
 import java.util.Set;
 
 public class Reading {
@@ -36,6 +35,14 @@ public class Reading {
            e.printStackTrace();
         }
     }
+    public String stahhp(String line) {
+        StringFormat sf = new StringFormat(line);
+        sf.RemovePunctuationLower();
+        sf.RemoveStopWords();
+        String curr = sf.Get();
+        return curr;
+    }
+
     public void buildDictionary(){
         open(file);
         String line = "";
@@ -44,12 +51,13 @@ public class Reading {
             while((line = in.readLine()) != null){
                 if(count > 0){
                     String text = getText(line,1);
-                    String[] words = text.split(" ");
-                    for (String word : words){
-                        dict.put(format(word));
+                    if(!text.equals("")){
+                        String[] words = text.split(" ");
+                        for (String word : words){
+                            dict.put(format(word));
+                        }
                     }
                 }
-
                 count++;
             }
         }
@@ -131,16 +139,17 @@ public class Reading {
         try{
             int count = 0;
             while((line = in.readLine()) != null){
-                if(count > 0 ){
-                    pw.println(readLine(line));
-                }
-                else{
-                    System.out.println("<"+getText(line, 0)+">"+"<"+getDict().getHeaders()+">"+","+"<"+getText(line, 2)+">");
-                    pw.println(getText(line, 0)+getDict().getHeaders()+","+getText(line, 2));
+                if(!getText(line, 1).equals("")){
+                    if(count > 0 ){
+                        pw.println(readLine(line));
+                    }
+                    else{
+                        System.out.println("<"+getText(line, 0)+">"+"<"+getDict().getHeaders()+">"+","+"<"+getText(line, 2)+">");
+                        pw.println(getText(line, 0)+","+getDict().getHeaders()+","+getText(line, 2));
+                    }
                 }
                 count++;
             }
-
         }
         catch (IOException e){
             e.printStackTrace();
