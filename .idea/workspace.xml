@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71d15fc6-3863-4332-a003-5be1f85f2e76" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/file/Reading.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/file/StopWords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/file/stopwords.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/test/ReadingTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/test/StopWordsTest.class" afterPath="$PROJECT_DIR$/out/production/ClassificationSetup/test/StopWordsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/file/Reading.class" afterPath="$PROJECT_DIR$/out/production/ClassificationSetup/file/Reading.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/lin/StringFormat.class" afterPath="$PROJECT_DIR$/out/production/ClassificationSetup/lin/StringFormat.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassificationSetup.iml" afterPath="$PROJECT_DIR$/ClassificationSetup.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/data/out.csv" afterPath="$PROJECT_DIR$/out/production/ClassificationSetup/data/out.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/out.csv" afterPath="$PROJECT_DIR$/src/data/out.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/file/Reading.java" afterPath="$PROJECT_DIR$/src/file/Reading.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/ReadingTest.java" afterPath="$PROJECT_DIR$/src/test/ReadingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lin/StopWords.java" afterPath="$PROJECT_DIR$/src/lin/StopWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lin/StringFormat.java" afterPath="$PROJECT_DIR$/src/lin/StringFormat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/StopWordsTest.java" afterPath="$PROJECT_DIR$/src/test/StopWordsTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/file/StopWords.java" afterPath="$PROJECT_DIR$/src/lin/StopWords.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/file/stopwords.txt" afterPath="$PROJECT_DIR$/src/lin/stopwords.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,46 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Reading.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/file/Reading.java">
+      <file leaf-file-name="Levenshtein.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lin/Levenshtein.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1992#2000#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadingTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ReadingTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringFormat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lin/StringFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="459">
+              <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StopWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lin/StopWords.java">
+      <file leaf-file-name="LevenshteinTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/LevenshteinTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="646">
+              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -95,6 +63,7 @@
       <find>,,</find>
       <find>,A</find>
       <find>null</find>
+      <find>sys</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,7 +84,6 @@
         <option value="$PROJECT_DIR$/src/StopWords.java" />
         <option value="$PROJECT_DIR$/src/tests/StopWordsTest.java" />
         <option value="$PROJECT_DIR$/src/file/StopWordsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/StopWordsTest.java" />
         <option value="$PROJECT_DIR$/src/file/StopWords.java" />
         <option value="$PROJECT_DIR$/src/file/Write.java" />
         <option value="$PROJECT_DIR$/src/test/DictionaryTest.java" />
@@ -130,10 +98,15 @@
         <option value="$PROJECT_DIR$/src/data/out.csv" />
         <option value="$PROJECT_DIR$/src/data/home_and_kitchen.csv" />
         <option value="$PROJECT_DIR$/src/file/Dictionary.java" />
-        <option value="$PROJECT_DIR$/src/lin/StopWords.java" />
-        <option value="$PROJECT_DIR$/src/lin/StringFormat.java" />
         <option value="$PROJECT_DIR$/src/test/ReadingTest.java" />
         <option value="$PROJECT_DIR$/src/file/Reading.java" />
+        <option value="$PROJECT_DIR$/src/test/StopWordsTest.java" />
+        <option value="$PROJECT_DIR$/src/lin/StopWords.java" />
+        <option value="$PROJECT_DIR$/src/test/StringFormatTest.java" />
+        <option value="$PROJECT_DIR$/src/lin/StringFormat.java" />
+        <option value="$PROJECT_DIR$/src/lin/Spell.java" />
+        <option value="$PROJECT_DIR$/src/lin/Levenshtein.java" />
+        <option value="$PROJECT_DIR$/src/test/LevenshteinTest.java" />
       </list>
     </option>
   </component>
@@ -165,9 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -185,30 +156,20 @@
               <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java External Libs/junit_ham/junit-4.12.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java External Libs/lucene-7.1.0/analysis/common/lucene-analyzers-common-7.1.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -222,18 +183,18 @@
       <recent name="file" />
       <recent name="tests" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\IdeaProjects\ClassificationSetup\src\data" />
-      <recent name="D:\Documents\IdeaProjects\ClassificationSetup\src\file\data" />
-      <recent name="D:\Documents\IdeaProjects\ClassificationSetup\src" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\IdeaProjects\ClassificationSetup\src\lin" />
       <recent name="D:\Documents\IdeaProjects\ClassificationSetup\src\file" />
       <recent name="D:\Documents\IdeaProjects\ClassificationSetup" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\IdeaProjects\ClassificationSetup\src\data" />
+      <recent name="D:\Documents\IdeaProjects\ClassificationSetup\src\file\data" />
+      <recent name="D:\Documents\IdeaProjects\ClassificationSetup\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,8 +209,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReadingTest">
-    <configuration name="ReadingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LevenshteinTest">
+    <configuration name="LevenshteinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -260,7 +221,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ReadingTest" />
+      <option name="MAIN_CLASS_NAME" value="test.LevenshteinTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -274,7 +235,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ReadingTest.format" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LevenshteinTest.compute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -285,8 +246,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ReadingTest" />
-      <option name="METHOD_NAME" value="format" />
+      <option name="MAIN_CLASS_NAME" value="test.LevenshteinTest" />
+      <option name="METHOD_NAME" value="compute" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -299,7 +260,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ReadingTest.printLines1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringFormatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -310,8 +271,33 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ReadingTest" />
-      <option name="METHOD_NAME" value="printLines1" />
+      <option name="MAIN_CLASS_NAME" value="test.StringFormatTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="StringFormatTest.removeStopWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ClassificationSetup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.StringFormatTest" />
+      <option name="METHOD_NAME" value="removeStopWords" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -324,7 +310,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ReadingTest.readLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringFormatTest.stem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -335,33 +321,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ReadingTest" />
-      <option name="METHOD_NAME" value="readLine" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ReadingTest.writeLines1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ClassificationSetup" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ReadingTest" />
-      <option name="METHOD_NAME" value="writeLines1" />
+      <option name="MAIN_CLASS_NAME" value="test.StringFormatTest" />
+      <option name="METHOD_NAME" value="stem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -410,19 +371,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ReadingTest.writeLines1" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ReadingTest.readLine" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ReadingTest.format" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ReadingTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ReadingTest.printLines1" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StringFormatTest.removeStopWords" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StringFormatTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StringFormatTest.stem" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LevenshteinTest.compute" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LevenshteinTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ReadingTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ReadingTest.printLines1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ReadingTest.writeLines1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ReadingTest.format" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ReadingTest.readLine" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LevenshteinTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LevenshteinTest.compute" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StringFormatTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringFormatTest.stem" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StringFormatTest.removeStopWords" />
       </list>
     </recent_temporary>
   </component>
@@ -439,44 +400,45 @@
       <workItem from="1508986575430" duration="20000" />
       <workItem from="1509020486046" duration="43216000" />
       <workItem from="1509204304641" duration="1873000" />
-      <workItem from="1509221545377" duration="7123000" />
+      <workItem from="1509221545377" duration="11862000" />
+      <workItem from="1509370155449" duration="17309000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadingTest - 2017.10.28 at 17h 12m 18s.xml">
-      <configuration name="ReadingTest" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest - 2017.10.30 at 17h 55m 57s.xml">
+      <configuration name="LevenshteinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadingTest - 2017.10.28 at 17h 30m 33s.xml">
-      <configuration name="ReadingTest" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 51m 49s.xml">
+      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadingTest - 2017.10.28 at 20h 55m 33s.xml">
-      <configuration name="ReadingTest" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 52m 13s.xml">
+      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadingTest - 2017.10.28 at 20h 56m 15s.xml">
-      <configuration name="ReadingTest" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 53m 07s.xml">
+      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadingTest - 2017.10.28 at 21h 29m 52s.xml">
-      <configuration name="ReadingTest" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 53m 49s.xml">
+      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadingTest_printLines1 - 2017.10.28 at 20h 55m 21s.xml">
-      <configuration name="ReadingTest.printLines1" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 54m 01s.xml">
+      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadingTest_printLines1 - 2017.10.28 at 20h 57m 15s.xml">
-      <configuration name="ReadingTest.printLines1" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 54m 24s.xml">
+      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadingTest_printLines1 - 2017.10.28 at 21h 28m 55s.xml">
-      <configuration name="ReadingTest.printLines1" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 54m 43s.xml">
+      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadingTest_writeLines1 - 2017.10.28 at 17h 31m 49s.xml">
-      <configuration name="ReadingTest.writeLines1" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 55m 06s.xml">
+      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReadingTest_writeLines1 - 2017.10.28 at 17h 36m 32s.xml">
-      <configuration name="ReadingTest.writeLines1" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 55m 45s.xml">
+      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52232000" />
+    <option name="totallyTimeSpent" value="74280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -491,7 +453,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33615223" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -552,18 +514,66 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/file/Reading.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ReadingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/StringFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/StopWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/StringFormatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="39" column="52" lean-forward="false" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file/Reading.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2346">
           <caret line="138" column="38" lean-forward="false" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1992#2000#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,8 +593,7 @@
         <state relative-caret-position="2142">
           <caret line="133" column="29" lean-forward="false" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1992#2000#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -604,7 +613,7 @@
         <state relative-caret-position="595">
           <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -643,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/StopWordsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/DictionaryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -675,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/Home_and_Kitchen_5.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="85">
-          <caret line="2" column="373" lean-forward="false" selection-start-line="2" selection-start-column="373" selection-end-line="2" selection-end-column="373" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/JsonFileReadingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -693,16 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/file/JsonFileReading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="122" column="77" lean-forward="false" selection-start-line="122" selection-start-column="77" selection-end-line="122" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,14 +709,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lin/stopwords.txt">
+    <entry file="file://$PROJECT_DIR$/out/production/ClassificationSetup/data/out.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/ClassificationSetup/data/out.csv">
+    <entry file="file://$PROJECT_DIR$/src/file/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -745,77 +740,119 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="0" column="216" lean-forward="false" selection-start-line="0" selection-start-column="204" selection-end-line="0" selection-end-column="216" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/short.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/ReadingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="67" lean-forward="false" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/home_and_kitchen.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="960" column="133" lean-forward="true" selection-start-line="960" selection-start-column="133" selection-end-line="960" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/file/Dictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="46" column="28" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/data/short.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file/Reading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/StopWordsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lin/StopWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="373">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file/JsonFileReading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="96" column="63" lean-forward="true" selection-start-line="96" selection-start-column="63" selection-end-line="96" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/Home_and_Kitchen_5.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="150">
+          <caret line="987" column="208" lean-forward="false" selection-start-line="987" selection-start-column="202" selection-end-line="987" selection-end-column="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/StringFormatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="46" column="40" lean-forward="false" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lin/StringFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/home_and_kitchen.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="806" column="51" lean-forward="false" selection-start-line="806" selection-start-column="51" selection-end-line="806" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ReadingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/lin/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file/Reading.java">
+    <entry file="file://$PROJECT_DIR$/src/test/LevenshteinTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1992#2000#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/Levenshtein.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

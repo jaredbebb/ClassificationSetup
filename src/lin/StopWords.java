@@ -13,21 +13,23 @@ public class StopWords {
 	public StopWords(){
 		String workingDirectory = System.getProperty("user.dir");
 		stopWords = new HashMap<String, Integer>();
-		filelocation = workingDirectory+"\\src\\file\\stopwords.txt";
+		filelocation = workingDirectory+"\\src\\lin\\stopwords.txt";
 		Load();
 	}
-	
+
+    /**
+     * inserts words.toUpper into hashmap
+     */
 	public void Load(){
 		try(BufferedReader br = new BufferedReader(new FileReader(filelocation))){
 			for(String line; (line = br.readLine()) != null;){
-				stopWords.put(line, 1);
+				stopWords.put(line.toUpperCase(), 1);
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
-	
 	/**
 	 * @return false if is not stopword
 	 */
@@ -46,6 +48,4 @@ public class StopWords {
 	public HashMap<String, Integer> Get(){
 		return stopWords;
 	}
-	
-
 }

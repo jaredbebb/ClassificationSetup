@@ -37,7 +37,7 @@ public class Reading {
     }
     public String stahhp(String line) {
         StringFormat sf = new StringFormat(line);
-        sf.RemovePunctuationLower();
+        sf.RemovePunctuation();
         sf.RemoveStopWords();
         String curr = sf.Get();
         return curr;

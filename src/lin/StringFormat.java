@@ -1,25 +1,35 @@
 package lin;
 
+
 import java.util.HashMap;
 
-
+import org.tartarus.snowball.ext.PorterStemmer;
 
 public class StringFormat {
-	String currentLine;
+	private String currentLine;
 	StopWords stopWords;
 	HashMap<String, Integer> words;
-	
-	
+
+	/**
+	 *
+	 * @param currentLine
+	 */
 	public StringFormat(String currentLine){
 		this.currentLine = currentLine;
 		stopWords = new StopWords();
 		words = new HashMap<String, Integer>();
 	}
 
-	
-	public void RemovePunctuationLower(){
-		currentLine = currentLine.toLowerCase();
-		currentLine = currentLine.replaceAll("[^a-z\\s]", "");
+	/**
+	 *
+	 */
+	public StringFormat() {
+
+	}
+
+
+	public void RemovePunctuation(){
+		currentLine = currentLine.replaceAll("[^a-zA-Z\\s]", "");
 		currentLine = currentLine.replaceAll(" +", " ");
 		currentLine = currentLine.trim();
 	}
@@ -32,17 +42,24 @@ public class StringFormat {
 		}
 		currentLine = removed.trim();
 	}
-	
+
+	/**
+	 *
+	 * @return current line, String
+	 */
 	public String Get(){
 		return currentLine;
 	}
-	
-	public static void main(String[] args){
-		StringFormat sf = new StringFormat("The  big Brown co.w ./()^%  ");
-		sf.RemovePunctuationLower();
-		System.out.println(sf.currentLine.equals("the big brown cow"));
-		sf.RemoveStopWords();
-		System.out.println(sf.currentLine);
+
+	/**
+	 * @param word String
+	 * @return stemmed String
+	 */
+	public String stem(String word){
+		PorterStemmer stem = new PorterStemmer();
+		stem.setCurrent(word.toLowerCase());
+		stem.stem();
+		return stem.getCurrent().toUpperCase();
 	}
 }
 
