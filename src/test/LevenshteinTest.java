@@ -9,12 +9,30 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LevenshteinTest {
+
     @Before
     public void setUp() throws Exception {
     }
 
     @After
     public void tearDown() throws Exception {
+    }
+    @Test
+    public void printMatrix() throws Exception {
+        Levenshtein leven = new Levenshtein();
+        leven = new Levenshtein();
+        String current = "size";
+        String compareTo = "seize";
+        int difference = leven.compute(current, compareTo);
+        Assert.assertEquals(1,difference);
+        leven.printMatrix();
+    }
+
+    @Test
+    public void min() throws Exception {
+        Levenshtein leven = new Levenshtein();
+        Assert.assertEquals(-1,leven.min(2,-1, 400));
+        Assert.assertEquals(2,leven.min(2,400,5));
     }
 
     @Test

@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71d15fc6-3863-4332-a003-5be1f85f2e76" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/file/Reading.class" afterPath="$PROJECT_DIR$/out/production/ClassificationSetup/file/Reading.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/lin/StringFormat.class" afterPath="$PROJECT_DIR$/out/production/ClassificationSetup/lin/StringFormat.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/DictionaryTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/test/DictionaryTest.class" afterPath="$PROJECT_DIR$/out/production/ClassificationSetup/test/DictionaryTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ClassificationSetup/test/LevenshteinTest.class" afterPath="$PROJECT_DIR$/out/production/ClassificationSetup/test/LevenshteinTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClassificationSetup.iml" afterPath="$PROJECT_DIR$/ClassificationSetup.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/file/Reading.java" afterPath="$PROJECT_DIR$/src/file/Reading.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lin/StopWords.java" afterPath="$PROJECT_DIR$/src/lin/StopWords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lin/StringFormat.java" afterPath="$PROJECT_DIR$/src/lin/StringFormat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/StopWordsTest.java" afterPath="$PROJECT_DIR$/src/test/StopWordsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lin/Levenshtein.java" afterPath="$PROJECT_DIR$/src/lin/Levenshtein.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/LevenshteinTest.java" afterPath="$PROJECT_DIR$/src/test/LevenshteinTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,22 +24,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Levenshtein.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lin/Levenshtein.java">
+      <file leaf-file-name="SpellCheckTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/SpellCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="272">
+              <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LevenshteinTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/LevenshteinTest.java">
+      <file leaf-file-name="SpellCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lin/SpellCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dictionary.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lin/Dictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
+                <element signature="e#1752#1753#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +98,6 @@
         <option value="$PROJECT_DIR$/src/file/StopWordsTest.java" />
         <option value="$PROJECT_DIR$/src/file/StopWords.java" />
         <option value="$PROJECT_DIR$/src/file/Write.java" />
-        <option value="$PROJECT_DIR$/src/test/DictionaryTest.java" />
         <option value="$PROJECT_DIR$/src/test/ReadTest.java" />
         <option value="$PROJECT_DIR$/src/file/Read.java" />
         <option value="$PROJECT_DIR$/src/file/Reader.java" />
@@ -105,8 +116,13 @@
         <option value="$PROJECT_DIR$/src/test/StringFormatTest.java" />
         <option value="$PROJECT_DIR$/src/lin/StringFormat.java" />
         <option value="$PROJECT_DIR$/src/lin/Spell.java" />
+        <option value="$PROJECT_DIR$/src/test/SpellCheckTest.java" />
         <option value="$PROJECT_DIR$/src/lin/Levenshtein.java" />
         <option value="$PROJECT_DIR$/src/test/LevenshteinTest.java" />
+        <option value="$PROJECT_DIR$/src/lin/SpellCheck.java" />
+        <option value="$PROJECT_DIR$/src/lin/DictionaryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/DictionaryTest.java" />
+        <option value="$PROJECT_DIR$/src/lin/Dictionary.java" />
       </list>
     </option>
   </component>
@@ -122,7 +138,9 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -150,13 +168,57 @@
             <path>
               <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClassificationSetup" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClassificationSetup" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,6 +242,7 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="test" />
+      <recent name="lin" />
       <recent name="file" />
       <recent name="tests" />
     </key>
@@ -209,7 +272,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LevenshteinTest">
+  <component name="RunManager" selected="JUnit.DictionaryTest">
+    <configuration name="DictionaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ClassificationSetup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DictionaryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DictionaryTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ClassificationSetup" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DictionaryTest" />
+      <option name="METHOD_NAME" value="size" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="LevenshteinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -235,7 +348,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LevenshteinTest.compute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LevenshteinTest.printMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -247,7 +360,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.LevenshteinTest" />
-      <option name="METHOD_NAME" value="compute" />
+      <option name="METHOD_NAME" value="printMatrix" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -260,7 +373,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="StringFormatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpellCheckTest.change" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -271,58 +384,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.StringFormatTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="StringFormatTest.removeStopWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ClassificationSetup" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.StringFormatTest" />
-      <option name="METHOD_NAME" value="removeStopWords" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="StringFormatTest.stem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ClassificationSetup" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.StringFormatTest" />
-      <option name="METHOD_NAME" value="stem" />
+      <option name="MAIN_CLASS_NAME" value="test.SpellCheckTest" />
+      <option name="METHOD_NAME" value="change" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -371,19 +434,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StringFormatTest.removeStopWords" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StringFormatTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StringFormatTest.stem" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LevenshteinTest.compute" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LevenshteinTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LevenshteinTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LevenshteinTest.printMatrix" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SpellCheckTest.change" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DictionaryTest.size" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DictionaryTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LevenshteinTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LevenshteinTest.compute" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringFormatTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StringFormatTest.stem" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StringFormatTest.removeStopWords" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DictionaryTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DictionaryTest.size" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpellCheckTest.change" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LevenshteinTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LevenshteinTest.printMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -401,48 +464,47 @@
       <workItem from="1509020486046" duration="43216000" />
       <workItem from="1509204304641" duration="1873000" />
       <workItem from="1509221545377" duration="11862000" />
-      <workItem from="1509370155449" duration="17309000" />
+      <workItem from="1509370155449" duration="24687000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LevenshteinTest - 2017.10.30 at 17h 55m 57s.xml">
+    <history-entry file="DictionaryTest - 2017.10.30 at 21h 32m 23s.xml">
+      <configuration name="DictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DictionaryTest - 2017.10.30 at 21h 48m 40s.xml">
+      <configuration name="DictionaryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DictionaryTest_size - 2017.10.30 at 21h 32m 14s.xml">
+      <configuration name="DictionaryTest.size" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LevenshteinTest - 2017.10.30 at 21h 23m 57s.xml">
       <configuration name="LevenshteinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 51m 49s.xml">
-      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest - 2017.10.30 at 21h 25m 48s.xml">
+      <configuration name="LevenshteinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 52m 13s.xml">
-      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest - 2017.10.30 at 21h 26m 02s.xml">
+      <configuration name="LevenshteinTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 53m 07s.xml">
-      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_min - 2017.10.30 at 21h 19m 47s.xml">
+      <configuration name="LevenshteinTest.min" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 53m 49s.xml">
-      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
+    <history-entry file="LevenshteinTest_printMatrix - 2017.10.30 at 21h 25m 40s.xml">
+      <configuration name="LevenshteinTest.printMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 54m 01s.xml">
-      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
+    <history-entry file="SpellCheckTest_change - 2017.10.30 at 21h 27m 49s.xml">
+      <configuration name="SpellCheckTest.change" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 54m 24s.xml">
-      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 54m 43s.xml">
-      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 55m 06s.xml">
-      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LevenshteinTest_compute - 2017.10.30 at 17h 55m 45s.xml">
-      <configuration name="LevenshteinTest.compute" configurationId="JUnit" />
+    <history-entry file="SpellCheckTest_change - 2017.10.30 at 21h 28m 16s.xml">
+      <configuration name="SpellCheckTest.change" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74280000" />
+    <option name="totallyTimeSpent" value="81658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -453,7 +515,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3308668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2114165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -537,7 +599,7 @@
         <state relative-caret-position="442">
           <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,7 +645,7 @@
         <state relative-caret-position="1819">
           <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -603,7 +665,7 @@
         <state relative-caret-position="833">
           <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,13 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/DictionaryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -750,7 +805,7 @@
         <state relative-caret-position="238">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,16 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/file/Reading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/StopWordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -780,14 +825,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lin/StopWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,14 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/home_and_kitchen.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="806" column="51" lean-forward="false" selection-start-line="806" selection-start-column="51" selection-end-line="806" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lin/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -840,19 +869,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/StopWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file/Reading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/home_and_kitchen.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="797" column="81" lean-forward="false" selection-start-line="797" selection-start-column="75" selection-end-line="797" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/LevenshteinTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="204">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lin/Levenshtein.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="361">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SpellCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/words_alpha.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="134" column="7" lean-forward="true" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/SpellCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/DictionaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/DictionaryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lin/Dictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1752#1753#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

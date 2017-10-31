@@ -1,8 +1,12 @@
 package test;
 
+import lin.Dictionary;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.lang.management.MemoryUsage;
 
 import static org.junit.Assert.*;
 
@@ -16,23 +20,30 @@ public class DictionaryTest {
     }
 
     @Test
-    public void getDict() throws Exception {
+    public void load() throws Exception {
     }
 
     @Test
-    public void setDict() throws Exception {
+    public void index() throws Exception {
+        Dictionary dict = new Dictionary();
+        dict.index();
     }
 
     @Test
-    public void put() throws Exception {
+    public void size() throws Exception {
+        Dictionary dict = new Dictionary();
+        Assert.assertEquals(370099, dict.size());
     }
 
     @Test
-    public void setList() throws Exception {
+    public void check() throws Exception {
+        Dictionary d = new Dictionary();
+        Assert.assertEquals(true,d.check("APPLE"));
+        Assert.assertEquals(true,d.check("COOKER"));
     }
 
     @Test
-    public void getList() throws Exception {
+    public void get() throws Exception {
     }
 
 }

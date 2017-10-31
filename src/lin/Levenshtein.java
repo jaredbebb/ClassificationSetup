@@ -3,6 +3,9 @@ package lin;
 
 import java.util.Arrays;
 
+/**
+ * Levenshtein Distance
+ */
 public class Levenshtein {
     private int[][] matrix;
     private static int substitition =1;
@@ -11,8 +14,18 @@ public class Levenshtein {
     private static int same =0;
 
 
+    /**
+     * Levenshtein Distance
+     */
     public Levenshtein(){
     }
+
+    /**
+     *
+     * @param current string 1
+     * @param compareTo string 2
+     * @return matrix[n][m]
+     */
     public int compute(String current, String compareTo){
         int left,top,diagonal;
         int cost;
@@ -50,7 +63,7 @@ public class Levenshtein {
                 System.out.print(matrix[i][j]+" ");
             }
         }
-        //System.out.println();
+        System.out.println();
     }
     public int min(int ... args){
         Arrays.sort(args);
