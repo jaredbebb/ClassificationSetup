@@ -33,6 +33,7 @@ public class StringFormat {
 		currentLine = currentLine.replaceAll(" +", " ");
 		currentLine = currentLine.trim();
 	}
+
 	public void RemoveStopWords(){
 		String removed = "";
 		for(String word: currentLine.split(" ") ){
@@ -49,6 +50,10 @@ public class StringFormat {
 	 */
 	public String Get(){
 		return currentLine;
+	}
+
+	public void Set(String currentLine){
+		this.currentLine = currentLine;
 	}
 
 	/**

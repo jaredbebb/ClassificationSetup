@@ -65,7 +65,6 @@ public class Dictionary {
     }
 
     public void ngrams() throws IOException {
-
     }
 
     /**

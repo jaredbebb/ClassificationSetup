@@ -11,7 +11,7 @@ import java.util.Set;
 public class Dictionary {
     private Set<String> dict;
     private String [] list;
-    String headers;
+    private String headers;
 
     public Dictionary(){
         dict = new HashSet<String>();

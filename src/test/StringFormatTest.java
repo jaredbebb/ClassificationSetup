@@ -41,6 +41,11 @@ public class StringFormatTest {
         sf.RemoveStopWords();
         Assert.assertEquals("EASIER PURCHASE AMAZON " +
                 "GO STORES SATISFIED FIT VACUUM PERFECTLY", sf.Get());
+
+        String line2 ="MY DAUGHTER WANTED BOOK PRICE AMAZON BEST SHE HAPPY";
+        sf = new StringFormat(line2);
+        sf.RemoveStopWords();
+        Assert.assertEquals("DAUGHTER WANTED BOOK PRICE AMAZON BEST HAPPY", sf.Get());
     }
 
     @Test
@@ -61,6 +66,10 @@ public class StringFormatTest {
         Assert.assertEquals("CLEANER",sf.stem("CLEANER"));
         Assert.assertEquals("ACCIDENT",sf.stem(ACCIDENTALLY));
         Assert.assertEquals("CAMP",sf.stem("CAMPING"));
+        Assert.assertEquals("WANT",sf.stem("WANTED"));
+        Assert.assertEquals("WANT",sf.stem("WANTS"));
+        Assert.assertEquals("HAPPI",sf.stem("HAPPY"));
+        Assert.assertEquals("HAPPI",sf.stem("HAPPINESS"));
     }
 
 }
